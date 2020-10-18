@@ -1,8 +1,8 @@
 '''
 Author: your name
 Date: 2020-10-18 16:22:39
-LastEditTime: 2020-10-18 16:22:41
-LastEditors: your name
+LastEditTime: 2020-10-18 22:08:13
+LastEditors: Please set LastEditors
 Description: In User Settings Edit
 FilePath: /generation/models/activations.py
 '''
@@ -12,7 +12,7 @@ import math
 import torch
 import torch.nn.functional as F
 
-from .utils import logging
+from utils import logging
 
 
 logger = logging.get_logger(__name__)

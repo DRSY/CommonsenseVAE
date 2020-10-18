@@ -27,9 +27,9 @@ from torch import Tensor, device, dtype, nn
 from torch.nn import CrossEntropyLoss
 from torch.nn import functional as F
 
-from .activations import get_activation
-from .configuration_utils import PretrainedConfig
-from .file_utils import (
+from activations import get_activation
+from configuration_utils import PretrainedConfig
+from file_utils import (
     DUMMY_INPUTS,
     TF2_WEIGHTS_NAME,
     TF_WEIGHTS_NAME,
@@ -41,8 +41,8 @@ from .file_utils import (
     is_torch_tpu_available,
     replace_return_docstrings,
 )
-from .generation_utils import GenerationMixin
-from .utils import logging
+from generation_utils import GenerationMixin
+from utils import logging
 
 
 logger = logging.get_logger(__name__)

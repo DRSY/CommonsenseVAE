@@ -30,7 +30,7 @@ import requests
 from filelock import FileLock
 
 __version__ = "3.3.0"
-from .utils import logging
+from utils import logging
 
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name

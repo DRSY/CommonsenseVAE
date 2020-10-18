@@ -21,8 +21,8 @@ import torch
 from torch import Tensor
 from torch.nn import functional as F
 
-from .file_utils import ModelOutput
-from .utils import logging
+from file_utils import ModelOutput
+from utils import logging
 
 
 logger = logging.get_logger(__name__)

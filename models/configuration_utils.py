@@ -22,8 +22,8 @@ import json
 import os
 from typing import Any, Dict, Tuple
 
-from .file_utils import CONFIG_NAME, cached_path, hf_bucket_url, is_remote_url
-from .utils import logging
+from file_utils import CONFIG_NAME, cached_path, hf_bucket_url, is_remote_url
+from utils import logging
 
 
 logger = logging.get_logger(__name__)
